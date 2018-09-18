@@ -11,7 +11,6 @@
 		943D99282151088500810413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943D99272151088500810413 /* Assets.xcassets */; };
 		943D992B2151088500810413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943D99292151088500810413 /* LaunchScreen.storyboard */; };
 		943D992E2151088500810413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D992D2151088500810413 /* main.m */; };
-		943D99382151088500810413 /* FindAirTicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D99372151088500810413 /* FindAirTicketsTests.m */; };
 		943D994721510B6900810413 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 943D994621510B6900810413 /* Default-568h@2x.png */; };
 		943D994C2151120D00810413 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D994B2151120D00810413 /* FirstViewController.m */; };
 		943D994F2151121C00810413 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D994E2151121C00810413 /* SecondViewController.m */; };
@@ -36,8 +35,6 @@
 		943D992C2151088500810413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		943D992D2151088500810413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		943D99332151088500810413 /* FindAirTicketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindAirTicketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		943D99372151088500810413 /* FindAirTicketsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindAirTicketsTests.m; sourceTree = "<group>"; };
-		943D99392151088500810413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		943D994621510B6900810413 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		943D994A2151120D00810413 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		943D994B2151120D00810413 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
@@ -68,7 +65,6 @@
 			children = (
 				943D994621510B6900810413 /* Default-568h@2x.png */,
 				943D991D2151088300810413 /* FindAirTickets */,
-				943D99362151088500810413 /* FindAirTicketsTests */,
 				943D991C2151088300810413 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,15 +87,6 @@
 				943D9942215108E000810413 /* Resources */,
 			);
 			path = FindAirTickets;
-			sourceTree = "<group>";
-		};
-		943D99362151088500810413 /* FindAirTicketsTests */ = {
-			isa = PBXGroup;
-			children = (
-				943D99372151088500810413 /* FindAirTicketsTests.m */,
-				943D99392151088500810413 /* Info.plist */,
-			);
-			path = FindAirTicketsTests;
 			sourceTree = "<group>";
 		};
 		943D9942215108E000810413 /* Resources */ = {
@@ -251,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943D99382151088500810413 /* FindAirTicketsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
