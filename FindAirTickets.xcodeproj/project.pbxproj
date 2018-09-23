@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940446B32156106F0014326B /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940446B22156106F0014326B /* SecondTableViewController.m */; };
+		940446B6215612650014326B /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 940446B5215612650014326B /* CustomTableViewCell.m */; };
 		943D99202151088300810413 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D991F2151088300810413 /* AppDelegate.m */; };
 		943D99282151088500810413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943D99272151088500810413 /* Assets.xcassets */; };
 		943D992B2151088500810413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943D99292151088500810413 /* LaunchScreen.storyboard */; };
 		943D992E2151088500810413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D992D2151088500810413 /* main.m */; };
 		943D994721510B6900810413 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 943D994621510B6900810413 /* Default-568h@2x.png */; };
 		943D994C2151120D00810413 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D994B2151120D00810413 /* FirstViewController.m */; };
-		943D994F2151121C00810413 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D994E2151121C00810413 /* SecondViewController.m */; };
+		943D994F2151121C00810413 /* ThirdDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D994E2151121C00810413 /* ThirdDetailViewController.m */; };
+		94C190952156882B00CE8140 /* Images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94C190942156882B00CE8140 /* Images.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940446B12156106F0014326B /* SecondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		940446B22156106F0014326B /* SecondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		940446B4215612650014326B /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		940446B5215612650014326B /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		943D991B2151088300810413 /* FindAirTickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAirTickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		943D991E2151088300810413 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		943D991F2151088300810413 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,8 +45,9 @@
 		943D994621510B6900810413 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		943D994A2151120D00810413 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		943D994B2151120D00810413 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		943D994D2151121C00810413 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		943D994E2151121C00810413 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		943D994D2151121C00810413 /* ThirdDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdDetailViewController.h; sourceTree = "<group>"; };
+		943D994E2151121C00810413 /* ThirdDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdDetailViewController.m; sourceTree = "<group>"; };
+		94C190942156882B00CE8140 /* Images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Images.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,7 @@
 		943D9942215108E000810413 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				94C190942156882B00CE8140 /* Images.bundle */,
 				943D99272151088500810413 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -111,8 +120,12 @@
 			children = (
 				943D994A2151120D00810413 /* FirstViewController.h */,
 				943D994B2151120D00810413 /* FirstViewController.m */,
-				943D994D2151121C00810413 /* SecondViewController.h */,
-				943D994E2151121C00810413 /* SecondViewController.m */,
+				940446B12156106F0014326B /* SecondTableViewController.h */,
+				940446B22156106F0014326B /* SecondTableViewController.m */,
+				943D994D2151121C00810413 /* ThirdDetailViewController.h */,
+				943D994E2151121C00810413 /* ThirdDetailViewController.m */,
+				940446B4215612650014326B /* CustomTableViewCell.h */,
+				940446B5215612650014326B /* CustomTableViewCell.m */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -176,6 +189,7 @@
 				TargetAttributes = {
 					943D991A2151088300810413 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					943D99322151088500810413 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -210,6 +224,7 @@
 				943D992B2151088500810413 /* LaunchScreen.storyboard in Resources */,
 				943D99282151088500810413 /* Assets.xcassets in Resources */,
 				943D994721510B6900810413 /* Default-568h@2x.png in Resources */,
+				94C190952156882B00CE8140 /* Images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,10 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943D994F2151121C00810413 /* SecondViewController.m in Sources */,
+				943D994F2151121C00810413 /* ThirdDetailViewController.m in Sources */,
+				940446B6215612650014326B /* CustomTableViewCell.m in Sources */,
 				943D992E2151088500810413 /* main.m in Sources */,
 				943D994C2151120D00810413 /* FirstViewController.m in Sources */,
 				943D99202151088300810413 /* AppDelegate.m in Sources */,
+				940446B32156106F0014326B /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X37P9Q6XJN;
 				INFOPLIST_FILE = "$(SRCROOT)/FindAirTickets/Environments/Info.plist";
@@ -386,6 +404,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.pricemin.FindAirTickets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -394,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X37P9Q6XJN;
 				INFOPLIST_FILE = "$(SRCROOT)/FindAirTickets/Environments/Info.plist";
@@ -403,6 +424,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.pricemin.FindAirTickets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

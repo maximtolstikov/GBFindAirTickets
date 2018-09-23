@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import "SecondViewController.h"
+#import "SecondTableViewController.h"
 
 @interface FirstViewController ()
 
@@ -39,8 +39,8 @@ static NSString *const titleButton = @"Second Controller";
 }
 
 -(void)tapButton {
-    SecondViewController* secondViewController = [SecondViewController new];
-    [self.navigationController pushViewController:secondViewController animated:true];
+    SecondTableViewController* secondTableViewController = [SecondTableViewController new];
+    [self.navigationController pushViewController:secondTableViewController animated:true];
     NSLog(@"tap on button");
 }
 

@@ -2,6 +2,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ThirdDetailViewController : UIViewController
+
+@property NSString* pathToImage;
 
 @end
