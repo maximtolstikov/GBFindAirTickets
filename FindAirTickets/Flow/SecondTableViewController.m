@@ -65,7 +65,7 @@ static NSString* const titleNavigationItem = @"Second Controller";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     ThirdDetailViewController* detailViewController = [ThirdDetailViewController new];
     detailViewController.pathToImage = self.iconsPathArray[indexPath.row];
-    [self.navigationController pushViewController:detailViewController animated:true];
+    [self.navigationController pushViewController:detailViewController animated:false];
 }
 
 @end
